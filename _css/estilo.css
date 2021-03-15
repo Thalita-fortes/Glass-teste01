@@ -1,15 +1,15 @@
-	@charset "utf=8" 
-	@import url((http://fonts.googleapis.com/css?family=Titillium+Web);
-	@font-face {
-		font-family: 'FonteLogo';
-		src: url("../_fonts/bubblegum-sans-regular.otf");
-	}
+@charset "utf=8" 
+
+@font-face {
+	font-family: 'FonteLogo';
+	src: url("../_fonts/bubblegum-sans-regular.otf");
+}
 
 
 	body {
-			font-family: arial, sans-serif;
-			background-color: #dddddd;
-			color: rgba(0, 0, 0, 1);
+		font-family: arial, sans-serif;
+		background-color: #dddddd;
+		color: rgba(0, 0, 0, 1);
 	}
 
 	div#interface{
@@ -17,7 +17,10 @@
 		background-color: #ffffff;
 		margin:-20px auto 0px auto;
 		box-shadow: 0px 0px 10px rgba(0,0,0,.5);
-		padding: 10px;
+		padding-left: 20 px ;
+		padding-right: 20 px ;
+		padding-top: 10 px ;
+		padding-bottom: 10 px 
 	}
 	p {
 		text-align: justify;
@@ -135,6 +138,8 @@
 		float: left;
 		border-right: 1px solid #606060;
 		padding-right: 15px;
+		padding-left: 20px;
+		box-sizing: border-box ;
 	}
 	article#noticia-principal h2{
 		font-size: 13pt;
