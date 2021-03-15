@@ -6,11 +6,11 @@
 	src: url("../_fonts/bubblegum-sans-regular.otf");
 }
 
-body{
+body {
 		font-family: arial, sans-serif;
 		background-color: #dddddd;
 		color: rgba(0, 0, 0, 1);
-	}
+}
 
 div#interface{
 	width: 900px;
